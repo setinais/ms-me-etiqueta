@@ -1,0 +1,15 @@
+version: "3.9"
+
+services:
+  mais-envios-backend:
+    container_name: mais-envios-backend
+    build:
+      context: .
+    ports:
+      - "3000:3000"
+    environment:
+      API_PORT: 3000
+      API_NAME: "MS-ME-Etiqueta"
+      SWAGGER_ENABLED: "true"
+      SWAGGER_PATH: "swagger-docs"
+      SIZE_MAX_FILE_BYTES: "5242880"
