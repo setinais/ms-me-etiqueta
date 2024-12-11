@@ -8,6 +8,11 @@ Esta aplicação esta configurada para uso em Docker.
 - Docker
 - Make (Para sistemas linux)
 
+## Swagger
+
+Documentação da API realizada com Swagger. Url de acesso `http://localhost:3000/swagger-docs`.
+A url de acesso pode-se alterar quando as variaveis de ambiente `SWAGGER_PATH` e `API_PORT` forem alteradas.
+
 ## Environment Variables
 
 ```
