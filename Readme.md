@@ -146,7 +146,8 @@ Com esses comandos, você pode gerenciar facilmente o projeto tanto em sistemas 
 - Node: 20
 - Yarn
 
-Antes de qualquer comando `yarn`, executar o `yarn install` para instalar as dependecias do projeto.
+Antes de qualquer comando `yarn`, executar o `yarn install` para instalar as dependecias do projeto e
+configurar as variaveis de ambiente.
 
 ### Desenvolvimento
 
