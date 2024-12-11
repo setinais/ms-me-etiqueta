@@ -101,7 +101,7 @@ docker exec -it mais-envios-backend sh
 ### Desenvolvimento
 
 ```powershell
-docker compose --project-name mais-envios --file [docker-compose.dev.yml](http://_vscodecontentref_/0) up
+docker compose --project-name mais-envios --file docker-compose.dev.yml up
 ```
 
 ### Produção
